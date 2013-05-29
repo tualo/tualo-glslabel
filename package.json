@@ -1,0 +1,27 @@
+{
+	"name": "tualo-glslabel",
+	"description": "GLS UniShip Label library written in JavaScript",
+	"homepage": "http://glslabel.tualo.de",
+	"main": "lib/label.js",
+	"version": "0.0.1",
+	"engines": {
+		"node": ">=0.8.0"
+	},
+	"maintainers": [
+	{
+		"name": "Thomas Hoffmann",
+		"email": "thomas.hoffmann@tualo.de",
+		"url": "http://tualo.de/"
+	}
+	],
+	"readmeFilename": "README.md",
+	"licenses": [
+	{
+		"type": "MIT",
+		"url": "LICENSE"
+	}
+	],
+	"dependencies": {
+		"tualo-datamatrix": ">=0.0.1"
+	}
+}
