@@ -6,7 +6,7 @@ var label = require('./lib/label');
 var server = http.createServer(function(req, res) {
 	res.writeHead(200);
 	var svg = label.Label({});
-	res.end('<html><body>'+svg+'</body></html>');
+	res.end('<html><body style="background: gray;">'+svg+'</body></html>');
 });
 
 server.listen(parseInt(process.env.PORT) || 3000);
